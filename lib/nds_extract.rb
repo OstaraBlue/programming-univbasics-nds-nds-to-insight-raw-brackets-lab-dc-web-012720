@@ -7,17 +7,7 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
-  result = {
-  }
-  #
-  # Use loops, variables and the accessing method, [], to loop through the NDS
-  # and total up all the
-  # ...
-  # ...
-  # ...
-  #
-  #
-  results = {}
+  result = {}
   counter = 0
   while counter < nds.count do
     director_name = nds[counter][:name]
@@ -30,5 +20,5 @@ def directors_totals(nds)
     end 
     counter += 1
   end
-  result
+  pp result
 end
